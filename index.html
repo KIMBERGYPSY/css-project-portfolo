@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        font-family: "Handlee", cursive;
+        font-family: "Macondo", cursive;
+        margin: 0 10%;
+        color: rgb(239, 239, 245);
+        background-color: rgb(171, 100, 237);
+      }
+
+      div.gallery {
+        border: 1px solid #ccc;
+      }
+
+      div.gallery:hover {
+        border: 1px solid #777;
+      }
+
+      div.gallery img {
+        width: 100%;
+        height: auto;
+      }
+
+      div.desc {
+        padding: 15px;
+        text-align: center;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      .responsive {
+        padding: 0 6px;
+        float: left;
+        width: 24.99999%;
+      }
+
+      @media only screen and (max-width: 700px) {
+        .responsive {
+          width: 49.99999%;
+          margin: 6px 0;
+        }
+      }
+
+      @media only screen and (max-width: 500px) {
+        .responsive {
+          width: 100%;
+        }
+      }
+
+      .clearfix:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>CSS Projects</h2>
+
+    <h4>Here are a few of my recent projects!</h4>
+
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="https://soft-lolly-e2159a.netlify.app/">
+          <img
+            src="images/nicolesbdcroppedimg.png"
+            alt="Interactive Birthday Greeting"
+            width="600"
+            height="400"
+          />
+        </a>
+        <div class="desc">
+          Interactive Birthday greeting for my best friend Nicole!
+        </div>
+      </div>
+    </div>
+
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="img_forest.jpg">
+          <img
+            src="images/underconstruction.jpg"
+            alt="Keyboard with under construction sign"
+            width="600"
+            height="400"
+          />
+        </a>
+        <div class="desc">Coming soon!</div>
+      </div>
+    </div>
+
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="https://codepen.io/kimbergypsy22/pen/YzjzwEE">
+          <img
+            src="images/buttons.png"
+            alt="Three interactive buttons"
+            width="600"
+            height="400"
+          />
+        </a>
+        <div class="desc">Fun and unique interactive buttons!</div>
+      </div>
+    </div>
+
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="https://csb-e9o7km.netlify.app/">
+          <img
+            src="images/cityskyline.png"
+            alt="Colorful city skyline"
+            width="600"
+            height="400"
+          />
+        </a>
+        <div class="desc">
+          The city turns to night when you shrink the image!
+        </div>
+      </div>
+    </div>
+
+    <div class="clearfix"></div>
+
+    <div style="padding: 6px;"></div>
+  </body>
+</html>
